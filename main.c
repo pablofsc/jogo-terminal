@@ -34,7 +34,7 @@ int main() {
 	
 	srand(time(NULL));
 	int i;
-	for(i = 0; i <= 1000; i++) {
+	for(i = 0; i <= 5; i++) {
 		criarbloco(matriz, rand() % LARMAPA, rand() % ALTMAPA, "  ", 0, 47);
 	}
 	
