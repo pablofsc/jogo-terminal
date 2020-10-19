@@ -71,9 +71,14 @@ void criarlinha(bloco *mapa[LARMAPA][ALTMAPA], int posx, int posy, int comp, cha
 			vary = 1;
 			break;
 			
-		case 'd': // linha diagonal
+		case 'd': // linha diagonal para cima
 			varx = 1;
 			vary = 1;
+			break;
+			
+		case 'e': // linha diagonal para baixo
+			varx = 1;
+			vary = -1;
 			break;
 			
 		default:
