@@ -38,8 +38,6 @@ int main() {
 		criarbloco(matriz, rand() % LARMAPA, rand() % ALTMAPA, "  ", 0, 47);
 	}
 	
-	
-	
 	for(;;) {
 		atualizar(matriz);
 		grav(matriz);
